@@ -29,7 +29,8 @@ class StepMash(object):
 
     def addStep(self, step):
         """Add mash temperature in increasing steps
-        e.g 22, 55, 64, 78"""
+        e.g 55, 64, 78
+        first step will consider grain/water ratio"""
         if len(self.steps) == 1:
             strikewater = self.temp_of_added_water(self.steps[0], step)
             self.watertemp.append(round(strikewater, 1))
