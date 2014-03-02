@@ -15,12 +15,12 @@ class StepMash(object):
         self.tc = 0.41  # Termodynamic constant in Celsius
 
     def setGrainweight(self, weight):
-        """Set the weight of grain/grits in mash"""
+        """Set the weight of grain/grits in mash (in Kg)"""
         self.G = weight
 
     def setGraintemp(self, temp):
         """Set the initial temperature of the grain
-        usually room temperature"""
+        usually room temperature (in Celsius)"""
         self.steps[0] = temp
 
     def setWatertemp(self, temp):
