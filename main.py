@@ -1,4 +1,4 @@
-import StepMash as sm
+import stepmash as sm
 import matplotlib.pyplot as pl
 
 
