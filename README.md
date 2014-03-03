@@ -3,6 +3,8 @@ StepMash
 
 StepMash calculator
 ```python
+    import stepmash as sm
+    import matplotlib.pyplot as pl
     myMash = sm.StepMash()
     
     myMash.setGrainweight(5.6)
